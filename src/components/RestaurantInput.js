@@ -42,7 +42,6 @@ export class RestaurantInput extends Component {
             type="text"
             onChange={(event) => this.handleOnLocationChange(event)}
             id="location"
-            key="location"
             placeholder="location" />
         </p>
         <input type="submit" />
